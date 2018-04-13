@@ -28,3 +28,4 @@ def move(board, index, token = "X")
   board[index] = token
   puts board
 end
+end
