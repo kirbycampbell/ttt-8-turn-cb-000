@@ -11,6 +11,7 @@ def valid_move?(board, index)
      false
   end
 end
+end
 #------------------------------------------------------------
 # Below Defines if the position is taken on the board.
 def position_taken?(board, index)
@@ -24,4 +25,10 @@ def position_taken?(board, index)
       false
     end
 end
+end
 #---------------------------------------------------------------
+def move(board, index, token = "X")
+  board[index] = token
+  puts board
+end
+end
